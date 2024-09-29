@@ -18,7 +18,7 @@ export default function Product({ productId, title, rating, price, imageUrl }) {
       </div>
       <div className="price-rating-container">
         <p className="rating">{+rating.rate} ★ ★ ★ ★</p>
-        <p className="price">{price}</p>
+        <p className="price">${price}</p>
       </div>
       <div className="cta-container">
         <button
